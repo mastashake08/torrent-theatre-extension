@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "WebTorrent Sidebar Player",
+  "name": "Torrent Theatre Player",
   "version": "1.0",
   "description": "Stream and seed torrents using WebTorrent and video.js.",
   "permissions": ["storage", "activeTab", "scripting", "sidePanel"],

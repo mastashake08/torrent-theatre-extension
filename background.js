@@ -1,4 +1,4 @@
 chrome.runtime.onInstalled.addListener(() => {
-    console.log("WebTorrent Sidebar Player installed!");
+    console.log("Torrent Theatre Player installed!");
   });
   
