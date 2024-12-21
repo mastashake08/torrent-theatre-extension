@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WebTorrent Sidebar</title>
+  <link rel="stylesheet" href="../assets/video-js.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Stream & Seed Torrents</h2>
+  <div>
+    <input type="file" id="uploadTorrent" />
+    <button id="seedButton">Seed Video</button>
+  </div>
+  <div>
+    <input type="text" id="magnetLink" placeholder="Magnet URL" />
+    <button id="startStream">Stream</button>
+  </div>
+  <video id="videoPlayer" class="video-js vjs-default-skin" controls></video>
+  <script src="../lib/webtorrent.min.js"></script>
+  <script src="../assets/video.js"></script>
+  <script src="sidebar.js"></script>
+</body>
+</html>
