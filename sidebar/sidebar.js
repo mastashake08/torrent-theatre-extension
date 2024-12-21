@@ -17,6 +17,7 @@ document.getElementById("seedButton").addEventListener("click", () => {
   if (file) {
     client.seed(file, (torrent) => {
       alert(`Seeding: ${torrent.magnetURI}`);
+      navigator.clipboard.writeText(torrent.magnetURI);
     });
   }
 });

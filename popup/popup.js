@@ -1,8 +1,5 @@
-document.getElementById("openSidebar").addEventListener("click", async () => {
-    await chrome.sidePanel.setOptions({
-        tabId,
-        path: '../sidebar/sidebar.html',
-        enabled: true
-      });
+document.getElementById("openSidebar").addEventListener("click", () => {
+    chrome.sidePanel
+    .open()
   });
   
